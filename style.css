@@ -35,6 +35,8 @@ nav ul li a {
     color: black;
 }
 
-/* @media screen and (max-width: 768) {
-    
-} */
+@media screen and (max-width: 568px) {
+    /* body {
+        display: none;
+    } */
+}
