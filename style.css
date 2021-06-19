@@ -10,20 +10,16 @@ body {
 nav {
     background-color: aquamarine;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     height: 70px;
     align-items: center;
 }
 
-.logo a {
-    text-decoration: none;
-    color: blue;
-    font-weight: bold;
-}
 
 nav ul {
     display: flex;
     list-style: none;
+    justify-content: space-between;
 }
 
 nav ul li {
@@ -34,9 +30,18 @@ nav ul li a {
     text-decoration: none;
     color: black;
 }
-
+.bars{
+    display: none;
+    justify-items: flex-end;
+}
 @media screen and (max-width: 568px) {
-    /* body {
+    .bars{
+        display: block;
+        justify-items: flex-end;
+    } 
+    nav ul li a {
+        text-decoration: none;
+        color: black;
         display: none;
-    } */
+    }
 }
